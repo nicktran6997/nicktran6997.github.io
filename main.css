@@ -26,22 +26,14 @@ body {
 
 
 .econ {
-	background-image: url("img/econ-background.jpg");
+	background-image: url("img/stock.jpg"); 	
 	color: white;
-	width: 50%;
+	width: 100%;
 	height: 100%;
-	float: left;
-	text-align: left;
+	float: center;
+	text-align: center;
 }
 
-.cs {
-	background-image: url("img/cs-background.jpg");
-	color: darkgreen;
-	width: 50%;
-	height: 100%;
-	float: right;
-	text-align: left;
-}
 
 ul {
 	background-color: teal;
@@ -49,6 +41,7 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 	float: center;
+	text-align: center;
 }
 li {
 	color: white;
