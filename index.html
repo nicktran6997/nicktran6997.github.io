@@ -1,35 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+<link rel = "stylesheet" type = "text/css" href = "main.css">
+<script type="text/javascript" src = "main.js"> </script>
+
+
 <head>
 	<meta charset="UTF-8">
 	<title>Nicholas Tran</title>
 </head>
 <body>
-	<header class = "banner">
-		<h1>
-			Nicholas Tran's Website
-		</h1>
-		<p> Welcome to my website! <br> I hope you find something interesting from me.</p>
-	</header>
 
-	<ul>
-		<li> <a href="about.html"> About </a></li>
-		<li> <a href="resume.pdf"> Resume </a></li>
-		<li> <a href="courses.html"> Notable Coursework</a> </li>
-		<li> <a href="poetry.html"> Poetry</a></li>
-		<li> <a href="trails.html"> Fun stuff </a></li>
-	</ul>
-	<div class = econ>
-		<p>
-			I will put something more interesting here but I guess you all have to wait (for now).
+		<header class = "banner">
+			<h1>
+				Nicholas Tran's Website
+			</h1>
+			<p> Welcome to my website! <br> I hope you find something interesting from me.</p>
+		</header>
+
+	
+	<div id="outer-menu">
+		<div class="table">
+			<ul id="horizontal">
+				<li> <a href="index.html"> About </a></li>
+				<li> <a href="documents/Resume.pdf"> Resume </a></li>
+				<li> <a href="documents/prob1.html"> Notable Coursework</a> </li>
+				<li> <a href="poetry.html"> Poetry</a></li>
+				<li> <a href="trails.html"> Fun stuff </a></li>
+			</ul>
+			</div>
+		</div>
+
+		
+	<div class = form>
+		<h2 class = "about-me">
+			About Me
+		</h2>
+		<p class = "about-me">
+			I will put something more interesting here but I guess you all have to wait (for now). <br>
+			In progress, placeholder content. More will be made in the future! Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 	</div>
-	 <div class = cs>
-			<p>
-				In progress, placeholder content. More will be made in the future!	
-			</p>
-	 </div>
 
+	<div class = "projects">
+	<h2 id="proj"> My Projects</h2>
+		<div class = "proj1" id = "proj"> 
+			<h3> RDBMS</h3>
+		</div>
+		<div class = "proj2" id = "proj"> 
+			<h3 > BearMaps</h3>
+		</div>
+		<div class = "proj3" id = "proj"> 
+			<h3 >Image Compressor</h3>
+		</div>
+
+	</div>
 </body>
+	<script> 
+	var proj1 = document.getElementsByClassName("proj1");
+	var projNode = proj1[0];
+	projNode.addEventListener("click", onClick);
+</script>
 </html>
