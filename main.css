@@ -86,7 +86,8 @@ a:hover {
 .projects {
 	margin: 5px;
 	padding:10px;
-	color: #98ff98 ;
+	color: green ;
+	
 }
 .proj1 {
 
@@ -96,6 +97,8 @@ a:hover {
 	min-height: 30%;
 	min-width: 26%;
 	text-align: center;
+	background-color: #edc9af;
+	opacity: 0.8;
 }
 
 .proj2 {
@@ -108,6 +111,8 @@ a:hover {
 	position: absolute;
 	left-margin: 2px;
 	right-margin: 2px;
+	background-color: #edc9af;
+	opacity: 0.8;
 }
 
 .proj3 {
@@ -118,6 +123,8 @@ a:hover {
 	left: 67%;
 	padding: 10px;
 	border: 5px ridge black;
+	background-color: #edc9af;
+	opacity: 0.8;
 }
 
 #proj {
@@ -125,6 +132,7 @@ a:hover {
 	align-items: center;
 	display: flex;
 	justify-content:center;
+	
 }
 h2#proj {
 	color:green;
