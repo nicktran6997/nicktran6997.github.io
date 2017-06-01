@@ -21,6 +21,7 @@ function onClick(projNum) {
 	proj.innerHTML = text;
 	proj.style.color = "black";
 	proj.style.opacity = "1";
+	proj.style.fontSize = "18px";
 }
 
 function turnOff(projNum) {
@@ -36,4 +37,5 @@ function turnOff(projNum) {
 	proj.innerHTML = text;
 	proj.style.color = "green";
 	proj.style.opacity = "0.8";
+	proj.style.fontSize = "40px";
 }
