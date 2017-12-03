@@ -71,8 +71,15 @@
 	</div>
 </body>
 	<script> 
-	var proj1 = document.getElementsByClassName("proj1");
-	var projNode = proj1[0];
-	projNode.addEventListener("click", onClick);
+	var proj1 = document.getElementsByClassName("proj1")[0];
+	var proj2 = document.getElementsByClassName("proj2")[0];
+	var proj3 = document.getElementsByClassName("proj3")[0];
+
+	var array = [proj1, proj2, proj3];
+	for (var i = 0; i < array.length; i++) {
+		array[i].addEventListener("mouseover", function(n) { return function() {onClick(n)}; } (i+1), false);
+		array[i].addEventListener("mouseout", function(n) { return function() {turnOff(n)};}(i+1), false);
+	}
+
 </script>
 </html>

@@ -2,18 +2,47 @@
 <html>
 <head>
 	<title>League of Legends Highlights</title>
+	<style type="text/css">
+		video {
+			border: 2px double black;
+			padding: 0;
+			width: 50%;
+			top: 0%;
+		}
+		.normal {
+			position:absolute;
+			left:0%;
+
+
+		}
+		.half {
+			position: absolute;
+			left: 50%;
+		}
+		h2.normal {
+			left: 20%;
+			top:55%;
+		}
+		h2.half {
+			left: 75%;
+			top: 55%;
+		}
+	</style>
 </head>
 <body>
-	
-	<video width="800" height="1000" controls >
+	<h2 class="normal">This is the original clip </H2>
+	<video class="normal"  controls>
 
-	<source src="league-one.webm" type='video/webm; codecs="vp8, vorbis"'>
+	<source src="league-one.webm" type='video/webm; codecs="vp8, vorbis"' >
 	</video>
-	<H2>This is the original clip </H2>
 	
-	<video width = "800" height = "1000" controls>
+	<H2 class="half"> 1/2 speed </H2>
+	<video class="half" controls>
 	<source src = "league-two.webm" type = 'video/webm; codecs= "vp8, vorbis"'>
 	</video>
-	<H2> 1/2 speed </H2>
+		<header> 
+		<h1 style = "text-align: center; position:absolute; top:60%"> My League Adventures </h1>
+		</header>
+	
 </body>
 </html>
