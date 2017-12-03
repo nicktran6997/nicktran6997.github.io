@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GPA Calculator</title>
+</head>
+<body>
+
+
+	College <input type="checkbox" name = student id = "college" onclick = "toggle('hs')"> <br>
+	Highschool <input type="checkbox" name = student id = "hs" onclick = "toggle('college')"> <br>
+	current GPA:<input type="gpa" id = "current" style = "width: 30px"> #units or courses taken <input id="units" style = "width: 20px"> <br>
+
+	course1 <input type="gp"> units
+	<button onclick="">
+		Disable
+	</button>
+	<script>
+		function toggle(id) {
+			element = document.getElementById(id);
+			element.disabled = !element.disabled; 
+		}
+	</script>
+</body>
+</html>
