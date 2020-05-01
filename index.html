@@ -45,34 +45,31 @@
     <div id="MainContent">
 
     </div>
+    <script>
+      $(document).ready(()=>{
+          $("#MainContent").hide(()=>LoadCenter("./home.html"));
+      })
+      function LoadCenter(filePath) {
+          $("#MainContent").load(filePath, ()=>$("#MainContent").fadeIn(1500));
 
+      }
+      $("#Home").click(function() {
+          $("#MainContent").fadeOut(250, ()=>LoadCenter("./home.html"));
+      });
+
+
+      $("#About").click(function() {
+          $("#MainContent").fadeOut(250, ()=>LoadCenter("./about.html"));
+      });
+      
+      $("#Projects").click(function() {
+          $("#MainContent").fadeOut(250, ()=>LoadCenter("./projects.html"));
+      });
+      $("#Contact").click(function() {
+          $("#MainContent").fadeOut(250, ()=>LoadCenter("./contacts.html"));
+      });
+  </script>
+  
 </body>
-<script>
-    $(document).ready(()=>{
-        $("#MainContent").hide(()=>LoadCenter("./home.html"));
-    })
-    function LoadCenter(filePath) {
-        $("#MainContent").load(filePath, ()=>$("#MainContent").fadeIn(1500));
-
-    }
-    $("#Home").click(function() {
-        $("#MainContent").fadeOut(250, ()=>LoadCenter("./home.html"));
-    });
-
-
-    $("#About").click(function() {
-        $("#MainContent").fadeOut(250, ()=>LoadCenter("./about.html"));
-    });
-    
-    $("#Projects").click(function() {
-        $("#MainContent").fadeOut(250, ()=>LoadCenter("./projects.html"));
-    });
-    $("#Contact").click(function() {
-        $("#MainContent").fadeOut(250, ()=>LoadCenter("./contacts.html"));
-    });
-
-
-
-</script>
 
 </html>
