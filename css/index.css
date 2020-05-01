@@ -1,0 +1,48 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#centered {
+    margin: 10% 10% auto;
+    text-align:center;
+}
+
+#my-title {
+    margin: 10px 10px auto;
+}
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    width: 80%;
+}
+
+#skip {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 20px; 
+}
+#camp {
+    max-width: 80%;
+    max-height: 100%;
+    margin: 20px;
+}
+#mmx {
+    max-width:80%;
+    max-height: 80%;
+    margin: 10px;
+}
+#portfolio {
+    margin: 8% 0% auto;
+    text-align: center;
+}
