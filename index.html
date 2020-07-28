@@ -74,6 +74,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 
             </ol>
             <div class="carousel-inner">
@@ -100,6 +101,13 @@
 
                 <img class="d-block auto-height" src="img/old_x_rand.png" alt="picture of my randomizer">
               </div>
+              <div class="carousel-item">
+                <h3 class=".carousel-caption">Bear Maps</h3>
+                <button class=".carousel-caption btn btn-secondary" data-toggle="modal" data-target="#bmapModal"> Click for more info</button>
+
+                <img class="d-block auto-height" src="img/bearmaps.png" alt="picture of my randomizer">
+              </div>
+
 
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -201,6 +209,30 @@
             </div>
           </div>
         </div>
+
+        <div class="modal fade" id="bmapModal" tabindex="-1" role="dialog" aria-labelledby="bmapModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="bmapModalLabel">Bear Maps</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                        <p>Class Project for Data Structures Course. Bear Maps functions similar to Google Maps but downscaled to be just within the UC Berkeley campus vicinity.</p> 
+                        <p> Utilizes Java 7 Standard Library datastructures such as Hash Maps, ArrayLists, etc. 
+                        Also created Quad-Tree Data structure to specifically allow for zooming in/out of the map. Implemented A* algorithm to find best routes.</p>
+                        <p>Developed in Java with XML to parse data of location points in Berkeley, CA.</p>
+                        <p>Can't link github for academic honesty reasons. Sorry!</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
 
 
