@@ -75,6 +75,7 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 
             </ol>
             <div class="carousel-inner">
@@ -107,6 +108,13 @@
 
                 <img class="d-block auto-height" src="img/bearmaps.png" alt="picture of my randomizer">
               </div>
+              <div class="carousel-item">
+                <h3 class=".carousel-caption">QuizTaker</h3>
+                <button class=".carousel-caption btn btn-secondary" data-toggle="modal" data-target="#quizModal"> Click for more info</button>
+
+                <img class="d-block auto-height" src="" alt="picture of my finished Udemy quiz taker">
+              </div>
+
 
 
             </div>
@@ -156,7 +164,8 @@
                         <p class='card-text'>Clone of Yelp, but for CampSites instead.</p>
                         <p class='card-text'>Several user functionalities such as Creating User Acc, Adding a new Campsite, Commenting, Authentication, etc. Follows the CRUD model using the REST api</p>
                         <p class='card-text'>Developed in Javascript with Node Express Backend, mongoDB database, prettified by Bootstrap</p>
-                        <a class="button" href="https://github.com/nicktran6997"><i class="fa fa-github fa-3x"></i></a>
+                        <a href="https://desolate-coast-29127.herokuapp.com/">DEMO</a>
+                        <a class="button" href="https://github.com/nicktran6997/yelpcamp"><i class="fa fa-github fa-3x"></i></a>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -233,6 +242,29 @@
           </div>
         </div>
 
+        <div class="modal fade" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="quizModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="quizModalLabel">Quiz Taker</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                        <p>Mini-project made as part of an application for Udemy's early grad software engineering position.</p>
+                        <p>Allows the user to take a quiz and displays the user's result after completing the quiz.</p>
+                        <p>Developed with React Front End, Django Backend hooked through a REST.</p>
+                        <a href="https://nick-quiz-taker.herokuapp.com/">DEMO</a>        
+                        <a class="button" href="https://github.com/nicktran6997/quiz-taker"><i class="fa fa-github fa-3x"></i></a>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
